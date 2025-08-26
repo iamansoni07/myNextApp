@@ -1,3 +1,5 @@
+fianl gitignore 
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -9,6 +11,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.pnp.js
 
 # testing
 /coverage
@@ -32,6 +35,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+
+# local env files
+.env*.local
+.env
 
 # vercel
 .vercel

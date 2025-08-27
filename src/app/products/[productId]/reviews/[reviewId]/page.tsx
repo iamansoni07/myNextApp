@@ -10,4 +10,4 @@ export default async function ProductDetails(
   return (
     <h1>This is review {reviewId} of product {productId}</h1>
   );
-}
+} 
